@@ -85,7 +85,7 @@ class UrlController extends AbstractController
     }
 
     /**
-     * @Route("/url/create", name="url_create")
+     * @Route("/url/create", name="url_create", methods={"POST"})
      * @param Request $request
      *
      * @return JsonResponse
