@@ -19,4 +19,5 @@ A service that allows shortening long URL's.
 
 - To create a short url run `curl http://localhost:8000/url/create -d "url=http://example.com"`.
 - To see all urls run `curl http://localhost:8000/url/all`.
-- To see all urls for current session `curl http://localhost:8000/url/current`
+- To see all urls for current session `curl http://localhost:8000/url/current`.
+- All short urls will be in "http://localhost:8000/url/view/{id}" format.
